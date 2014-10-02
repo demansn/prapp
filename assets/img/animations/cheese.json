@@ -1,0 +1,246 @@
+{"frames": [
+
+{
+	"filename": "cheese0004",
+	"frame": {"x":2,"y":2,"w":68,"h":75},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":0,"w":68,"h":75},
+	"sourceSize": {"w":70,"h":75},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "cheese0005",
+	"frame": {"x":72,"y":2,"w":70,"h":69},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":6,"w":70,"h":69},
+	"sourceSize": {"w":70,"h":75},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "cheese0006",
+	"frame": {"x":144,"y":2,"w":68,"h":71},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":4,"w":68,"h":71},
+	"sourceSize": {"w":70,"h":75},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "cheese0007",
+	"frame": {"x":214,"y":2,"w":68,"h":71},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":4,"w":68,"h":71},
+	"sourceSize": {"w":70,"h":75},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "cheese0008",
+	"frame": {"x":284,"y":2,"w":68,"h":73},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":2,"w":68,"h":73},
+	"sourceSize": {"w":70,"h":75},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "cheese0009",
+	"frame": {"x":354,"y":2,"w":66,"h":73},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":2,"w":66,"h":73},
+	"sourceSize": {"w":70,"h":75},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "cheese0010",
+	"frame": {"x":422,"y":2,"w":66,"h":73},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":2,"w":66,"h":73},
+	"sourceSize": {"w":70,"h":75},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "cheese0011",
+	"frame": {"x":490,"y":2,"w":66,"h":73},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":2,"w":66,"h":73},
+	"sourceSize": {"w":70,"h":75},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "cheese0012",
+	"frame": {"x":558,"y":2,"w":70,"h":69},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":6,"w":70,"h":69},
+	"sourceSize": {"w":70,"h":75},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "cheese0013",
+	"frame": {"x":630,"y":2,"w":70,"h":73},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":2,"w":70,"h":73},
+	"sourceSize": {"w":70,"h":75},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "cheese0014",
+	"frame": {"x":702,"y":2,"w":70,"h":75},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":70,"h":75},
+	"sourceSize": {"w":70,"h":75},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "cheese0015",
+	"frame": {"x":774,"y":2,"w":70,"h":75},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":70,"h":75},
+	"sourceSize": {"w":70,"h":75},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "cheese0016",
+	"frame": {"x":846,"y":2,"w":70,"h":75},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":70,"h":75},
+	"sourceSize": {"w":70,"h":75},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "cheese0017",
+	"frame": {"x":918,"y":2,"w":70,"h":75},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":70,"h":75},
+	"sourceSize": {"w":70,"h":75},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "cheese0018",
+	"frame": {"x":990,"y":2,"w":70,"h":75},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":70,"h":75},
+	"sourceSize": {"w":70,"h":75},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "cheese0019",
+	"frame": {"x":1062,"y":2,"w":70,"h":75},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":70,"h":75},
+	"sourceSize": {"w":70,"h":75},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "cheese0020",
+	"frame": {"x":1134,"y":2,"w":70,"h":75},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":70,"h":75},
+	"sourceSize": {"w":70,"h":75},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "cheese0021",
+	"frame": {"x":1206,"y":2,"w":70,"h":71},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":4,"w":70,"h":71},
+	"sourceSize": {"w":70,"h":75},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "cheese0022",
+	"frame": {"x":1278,"y":2,"w":70,"h":73},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":2,"w":70,"h":73},
+	"sourceSize": {"w":70,"h":75},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "cheese0023",
+	"frame": {"x":1350,"y":2,"w":70,"h":73},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":2,"w":70,"h":73},
+	"sourceSize": {"w":70,"h":75},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "cheese0024",
+	"frame": {"x":1422,"y":2,"w":68,"h":75},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":0,"w":68,"h":75},
+	"sourceSize": {"w":70,"h":75},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "cheese0025",
+	"frame": {"x":1492,"y":2,"w":68,"h":75},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":0,"w":68,"h":75},
+	"sourceSize": {"w":70,"h":75},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "cheese0026",
+	"frame": {"x":1562,"y":2,"w":68,"h":75},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":0,"w":68,"h":75},
+	"sourceSize": {"w":70,"h":75},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "cheese0027",
+	"frame": {"x":1632,"y":2,"w":68,"h":75},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":0,"w":68,"h":75},
+	"sourceSize": {"w":70,"h":75},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "cheese0028",
+	"frame": {"x":1702,"y":2,"w":68,"h":75},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":0,"w":68,"h":75},
+	"sourceSize": {"w":70,"h":75},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "cheese0029",
+	"frame": {"x":1772,"y":2,"w":68,"h":75},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":0,"w":68,"h":75},
+	"sourceSize": {"w":70,"h":75},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "G:/workpace/work/SignusLabs/res/forGame/animations/anim70/cheese.png/cheese.png",
+	"format": "RGBA8888",
+	"size": {"w":1842,"h":79},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:648cc1ca523f308ec5fb0f425dba5da9:0efbd1701b3b7eb647a1ba411cb562ff:4caa6860a4e2c31fc05d153d31feda9b$"
+}
+}

@@ -1,0 +1,11 @@
+
+body{
+   margin: 0px;
+}
+
+
+@font-face {
+    font-family: PatuaOne-Regular; 
+    src: local("PatuaOne-Regular"),
+    url(./assets/font/PatuaOne-Regular.otf);
+  }

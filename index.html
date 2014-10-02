@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="chrome=1, IE=9">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="HandheldFriendly" content="true" />
+	<meta name="robots" content="noindex,nofollow" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />	
+	<meta name="viewport" content="initial-scale=1 maximum-scale=1 user-scalable=0 minimal-ui" />
+        
+        <style type="text/css">
+            body {
+                margin: 0px 0px 0px 0px; /* the extra 1px allows the iOS inner/outer check to work */
+               // background: #000;
+            }
+
+						#spilgames-splash-screen{
+							width: 100%;
+							height: 100%;
+							background: url('http://www8.agame.com/mirror/img/Splash_Image_A10.png') top center no-repeat; /* Change "A10" to "GGG" or "Zibbo" based on the brand your game matches */
+							position: absolute;
+							z-index: 10000; /* Make sure its on top of the game */
+							background-size: 90%;
+							background-color:#3890ae; /* Change to #FFF for GGG or Zibbo branded games */
+						}
+						.spilgames-splash-screen-gone{
+							display:none !important;
+						}
+						
+        </style>
+        <script src="assets/js/libs/phaser/phaser.js"></script>
+				<!-- Include the HTML5 API -->
+				<script type="text/javascript" src="http://cdn.gameplayer.io/api/js/game.js"></script>
+    </head>
+    <body>        
+			
+				<!-- placeholder for the Spil Games Splash Screen -->
+				<div id="spilgames-splash-screen" class="spilgames-splash-screen-gone"></div>
+       
+        <script src="assets/js/game/PRApp.js"></script>
+        <script src="assets/js/game/config/WebFontConfig.js"></script>
+        <script src="assets/js/game/states/Preload.js"></script>
+        <script src="assets/js/game/states/MainMenu.js"></script>
+        <script src="assets/js/game/states/MetaGame.js"></script>
+        <script src="assets/js/game/states/Play.js"></script>
+  
+        <script src="assets/js/game/gameObject/MapItem.js"></script>
+        <script src="assets/js/game/gameObject/Grid.js"></script>
+        <script src="assets/js/game/gameObject/Board.js"></script>      
+        <script src="assets/js/game/gameObject/Piece.js"></script>
+        <script src="assets/js/game/gameObject/PieceBackgound.js"></script>
+
+        <script src="assets/js/game/config/Resources.js"></script>
+        <script src="assets/js/game/config/GameObjectTypes.js"></script>
+        <script src="assets/js/game/config/Levels.js"></script>
+        <script src="assets/js/game/config/MetaGameConfig.js"></script>     
+
+        <script src="assets/js/JSUtils.js"></script>
+       
+        <script>
+          
+                //PRApp.create();
+												
+								var SpilData = {
+										id: '576742227280292788' // You receive this value from Spil Games
+								};	
+
+								GameAPI.loadAPI (function (apiInstance) {
+										// The API is ready for use.
+										if (window.console && window.console.log) {
+												console.log('GameAPI version ' + apiInstance.version + ' loaded!');
+										}
+										var APIData = {
+											splashScreen: apiInstance.Branding.getSplashScreen(),
+											logo: apiInstance.Branding.getLogo(),
+											moreGames: apiInstance.Branding.getLink('more_games')
+										};
+										
+										// Checks if splash screen is enabled and if it has an 'action' method										
+										if(APIData.splashScreen.show && APIData.splashScreen.action) {
+
+											var splashScreen = document.getElementById('spilgames-splash-screen');
+											splashScreen.addEventListener('click', APIData.splashScreen.action);
+											splashScreen.classList.remove('spilgames-splash-screen-gone');
+										
+										}	
+										
+										GameAPI.GameBreak.request(function(){											
+												PRApp.setPause(true);
+												console.log('The advertisement is about to show, you should pause your game');
+										}, function(){
+												PRApp.setPause(false);
+												console.log('The advertisment is shown and your game can now be resumed');
+										});
+										
+										PRApp.create( APIData );
+								}, SpilData);
+           
+        </script>
+
+    </body>
+</html>
